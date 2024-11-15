@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="English">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persion Alphabet</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=cottage" />
+    <style>
+        body {
+            background-image: url(./img/04878108-dee4-4212-a9c3-5dad0a2bb7d2.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #fff5e1;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 70%;
+        }
+
+        #svg {
+            position: absolute;
+            float: left;
+           
+        }
+
+        img{
+             width: 25%;
+             height: 150px;
+             margin-top: 20px;
+             border-radius: 5px;
+            
+          }
+
+        h2 {
+            background-color: #3b6d3b;
+            color: #fff;
+            padding: 8px;
+            margin-top: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+           
+        }
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(6, auto);
+            gap: 10px;
+            
+        }
+
+        .button {
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            color: #fff;
+            transform: translateX(-30px) rotate(-360deg);
+            animation: waveRotate 3s ease forwards;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-1 {
+            background-color: #e68a00;
+        }
+
+        .button-2 {
+            background-color: #e68a00;
+        }
+
+        .button-3 {
+            background-color: #e68a00;
+        }
+
+        .button-4 {
+            background-color: #e68a00;
+        }
+
+        .button-5 {
+            background-color: #e68a00;
+        }
+
+        .button-6 {
+            background-color: #d89274;
+        }
+
+        .button-7 {
+            background-color: #d89274;
+        }
+
+        .button-8 {
+            background-color: #d89274;
+        }
+
+        .button-9 {
+            background-color: #d89274;
+        }
+
+        .button-10 {
+            background-color: #d89274;
+        }
+
+        .button-11 {
+            background-color: #ffa07a;
+        }
+
+        .button-12 {
+            background-color: #ffa07a;
+        }
+
+        .button-13 {
+            background-color: #ffa07a;
+        }
+
+        .button-14 {
+            background-color: #ffa07a;
+        }
+
+        .button-15 {
+            background-color: #ffa07a;
+        }
+
+        .button-16 {
+            background-color: #8b4513;
+        }
+
+        .button-17 {
+            background-color: #8b4513;
+        }
+
+        .button-18 {
+            background-color: #8b4513;
+        }
+
+        .button-19 {
+            background-color: #8b4513;
+        }
+
+        .button-20 {
+            background-color: #8b4513;
+        }
+
+        .button-21 {
+            background-color: #99f800;
+        }
+
+        .button-22 {
+            background-color: #99f800;
+        }
+
+        .button-23 {
+            background-color: #99f800;
+        }
+
+        .button-24 {
+            background-color: #99f800;
+        }
+
+        .button-25 {
+            background-color: #99f800;
+        }
+
+        .button-26 {
+            background-color: #616a39;
+        }
+
+        .button-27 {
+            background-color: #616a39;
+        }
+
+        .button-28 {
+            background-color: #616a39;
+        }
+
+        .button-29 {
+            background-color: #616a39;
+        }
+
+        .button-30 {
+            background-color: #616a39;
+        }
+
+        .button-31 {
+            background-color: #0e8dee;
+        }
+
+        .button-32 {
+            background-color: #0e8dee;
+        }
+
+        .button-33 {
+            background-color: #0e8dee;
+        }
+
+        .button-34 {
+            background-color: #0e8dee;
+        }
+
+        .button-35 {
+            background-color: #0e8dee;
+        }
+
+
+        @media (min-width: 150px) and (max-width: 480px) {
+            body {
+                background-image: url(./img/04878108-dee4-4212-a9c3-5dad0a2bb7d2.png);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+                font-family: 'Arial', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 120vh;
+                margin: 0;
+            }
+            .container {
+                text-align: center;
+                background-color: #fff5e1;
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+                width: 80%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+            }
+
+            .buttons {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(6, auto);
+                gap: 20px;
+                margin: 10%;
+                width: 80%;
+
+            }
+
+            .button {
+
+                color: #fff;
+                border: none;
+                padding: 10px 10px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.2s ease;
+                font-size: 20px;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+                width: 80%;
+            }
+        }
+
+        .button-1 {
+            background-color: #e68a00;
+        }
+
+        .button-2 {
+            background-color: #e68a00;
+        }
+
+        .button-3 {
+            background-color: #e68a00;
+        }
+
+        .button-4 {
+            background-color: #4f44e0ec;
+        }
+
+        .button-5 {
+            background-color: #4f44e0ec;
+        }
+
+        .button-6 {
+            background-color: #4f44e0ec;
+        }
+
+        .button-7 {
+            background-color: #d89274;
+        }
+
+        .button-8 {
+            background-color: #d89274;
+        }
+
+        .button-9 {
+            background-color: #d89274;
+        }
+
+        .button-10 {
+            background-color: #51f006;
+        }
+
+        .button-11 {
+            background-color: #51f006;
+        }
+
+        .button-12 {
+            background-color: #51f006;
+            ;
+        }
+
+        .button-13 {
+            background-color: #ffa07a;
+        }
+
+        .button-14 {
+            background-color: #ffa07a;
+        }
+
+        .button-15 {
+            background-color: #ffa07a;
+        }
+
+        .button-16 {
+            background-color: #8b4513;
+        }
+
+        .button-17 {
+            background-color: #8b4513;
+        }
+
+        .button-18 {
+            background-color: #8b4513;
+        }
+
+        .button-19 {
+            background-color: #fdcf02;
+        }
+
+        .button-20 {
+            background-color: #fdcf02;
+        }
+
+        .button-21 {
+            background-color: #fdcf02;
+        }
+
+        .button-22 {
+            background-color: #788464;
+        }
+
+        .button-23 {
+            background-color: #788464;
+        }
+
+        .button-24 {
+            background-color: #788464;
+        }
+
+        .button-25 {
+            background-color: #99f800;
+        }
+
+        .button-26 {
+            background-color: #99f800;
+        }
+
+        .button-27 {
+            background-color: #99f800;
+        }
+
+        .button-28 {
+            background-color: #616a39;
+        }
+
+        .button-29 {
+            background-color: #616a39;
+        }
+
+        .button-30 {
+            background-color: #616a39;
+        }
+
+        .button-31 {
+            background-color: #0e8dee;
+        }
+
+        .button-32 {
+            background-color: #0e8dee;
+        }
+
+        .button-33 {
+            background-color: #0e8dee;
+        }
+
+        .button-34 {
+            background-color: #0e8dee;
+        }
+
+        .button-35 {
+            background-color: #0e8dee;
+        }
+
+
+        @media (min-width: 480px) and (max-width: 760px) {
+
+body {
+    background-image: url(./img/04878108-dee4-4212-a9c3-5dad0a2bb7d2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin: 0;
+}
+
+
+
+.container {
+    text-align: center;
+    background-color: #fff5e1;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin-top: 10%;
+    padding-bottom: 0px;
+    margin-bottom: 10%;
+
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, auto);
+    gap: 10px;
+    margin: 10%;
+    width: 80%;
+
+}
+h1 {
+background-color: #3b6d3b;
+color: #fff;
+padding: 8px;
+margin-top: 20px;
+border-radius: 10px;
+}
+
+.button {
+    color: #fff;
+    border: none;
+    padding:5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+} @keyframes waveRotate {
+            0% {
+                opacity: 0;
+                transform: translateX(-30px) rotate(-360deg);
+            }
+            50% {
+                opacity: 1;
+                transform: translateX(10px) rotate(180deg); 
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0) rotate(360deg); 
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+      
+        <div id="svg">
+            <svg  onclick="goToPage()" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+                <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" />
+            </svg>
+       
+        </div>
+
+        <img src="./img/set-funny-characters-numbers-face-260nw-1733916650.webp" alt="photo">
+
+        <h2>اعداد ریاضی</h2>
+        <div class="buttons">
+            <div class="button button-1" onclick="playSound('1')"> 1 </div>
+            <div class="button button-2" onclick="playSound('2')"> 2 </div>
+            <div class="button button-3" onclick="playSound('3')"> 3 </div>
+            <div class="button button-4" onclick="playSound('4')"> 4</div>
+            <div class="button button-5" onclick="playSound('5')"> 5 </div>
+            <div class="button button-6" onclick="playSound('6')"> 6 </div>
+            <div class="button button-7" onclick="playSound('7')"> 7 </div>
+            <div class="button button-8" onclick="playSound('8')"> 8 </div>
+            <div class="button button-9" onclick="playSound('9')"> 9 </div>
+            <div class="button button-10" onclick="playSound('10')"> 10 </div>
+            <div class="button button-11" onclick="playSound('11')"> 11</div>
+            <div class="button button-12" onclick="playSound('12')">12</div>
+            <div class="button button-13" onclick="playSound('13')"> 13 </div>
+            <div class="button button-14" onclick="playSound('14')"> 14 </div>
+            <div class="button button-15" onclick="playSound('15')"> 15 </div>
+            <div class="button button-16" onclick="playSound('16')">16</div>
+            <div class="button button-17" onclick="playSound('17')">17 </div>
+            <div class="button button-18" onclick="playSound('18')"> 18</div>
+            <div class="button button-19" onclick="playSound('19')">19 </div>
+            <div class="button button-20" onclick="playSound('20')">20 </div>
+            <div class="button button-21" onclick="playSound('30')">30</div>
+            <div class="button button-22" onclick="playSound('40')">40</div>
+            <div class="button button-23" onclick="playSound('50')">50</div>
+            <div class="button button-24" onclick="playSound('60')">60</div>
+            <div class="button button-25" onclick="playSound('70')">70</div>
+            <div class="button button-26" onclick="playSound('80')">80</div>
+            <div class="button button-27" onclick="playSound('90')">90</div>
+            <div class="button button-28" onclick="playSound('100')">100</div>
+            <div class="button button-29" onclick="playSound('1000')">1000</div>
+            <div class="button button-30" onclick="playSound('10000')">10,000</div>
+        </div>
+    </div>
+    <script>
+        function goToPage() {
+            window.location.href = "Page1.html";
+        }
+
+        function playSound(text) {
+            var speech = new SpeechSynthesisUtterance(text);
+            speech.lang = "fa-IR";
+            window.speechSynthesis.speak(speech);
+        }
+    </script>
+</body>
+
+</html>
