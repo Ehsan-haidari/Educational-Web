@@ -1,5 +1,4 @@
 
-
 let randomNumber = Math.floor(Math.random() * 15) + 1; 
 let attempts = 0;
 
@@ -38,7 +37,6 @@ function resetGame() {
     document.getElementById("resultMessage").textContent = "";
     document.getElementById("attemptsCount").textContent = attempts;
 }
-
 
 function speak(text) {
     const speech = new SpeechSynthesisUtterance(text);
