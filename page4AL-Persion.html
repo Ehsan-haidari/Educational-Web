@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persion Alphabet</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=cottage" />
+    <style>
+        body {
+            background-image: url(./img/photo_2024-10-16_22-56-51.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #fff5e1;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            width: 70%;
+        }
+        #svg {
+            position: absolute;
+            left: 3%;
+            animation: moveMar 5s ease-in-out infinite;
+            animation: bounceEffect 2s ease 1;
+        }
+
+        img {
+            width: 25%;
+            height: 150px;
+            margin-top: 20px;
+            border-radius: 5px;
+            animation: bounceEffect 2s ease 1;
+        }
+        h1 {
+            background-color: #3b6d3b;
+            color: #fff;
+            padding: 8px;
+            margin-top: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            animation: bounceEffect 2s ease 1;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(6, auto);
+            gap: 10px;
+            animation: bounceEffect 2s ease 1;
+        }
+
+
+
+        .button {
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            color: #fff;
+            animation: bounceEffect 2s ease 1;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-1 {
+            background-color: #e68a00;
+        }
+
+        .button-2 {
+            background-color: #e68a00;
+        }
+
+        .button-3 {
+            background-color: #e68a00;
+        }
+
+        .button-4 {
+            background-color: #e68a00;
+        }
+
+        .button-5 {
+            background-color: #e68a00;
+        }
+
+        .button-6 {
+            background-color: #d89274;
+        }
+
+        .button-7 {
+            background-color: #d89274;
+        }
+
+        .button-8 {
+            background-color: #d89274;
+        }
+
+        .button-9 {
+            background-color: #d89274;
+        }
+
+        .button-10 {
+            background-color: #d89274;
+        }
+
+        .button-11 {
+            background-color: #ffa07a;
+        }
+
+        .button-12 {
+            background-color: #ffa07a;
+        }
+
+        .button-13 {
+            background-color: #ffa07a;
+        }
+
+        .button-14 {
+            background-color: #ffa07a;
+        }
+
+        .button-15 {
+            background-color: #ffa07a;
+        }
+
+        .button-16 {
+            background-color: #8b4513;
+        }
+
+        .button-17 {
+            background-color: #8b4513;
+        }
+
+        .button-18 {
+            background-color: #8b4513;
+        }
+
+        .button-19 {
+            background-color: #8b4513;
+        }
+
+        .button-20 {
+            background-color: #8b4513;
+        }
+
+        .button-21 {
+            background-color: #99f800;
+        }
+        .button-22 {
+            background-color: #99f800;
+        }
+        .button-23 {
+            background-color: #99f800;
+        }
+        .button-24 {
+            background-color: #99f800;
+        }
+        .button-25 {
+            background-color: #99f800;
+        }
+        .button-26 {
+            background-color: #616a39;
+        }
+        .button-27 {
+            background-color: #616a39;
+        }
+        .button-28 {
+            background-color: #616a39;
+        }
+        .button-29 {
+            background-color: #616a39;
+        }
+        .button-30 {
+            background-color: #616a39;
+        }
+        .button-31 {
+            background-color: #0e8dee;
+        }
+        .button-32 {
+            background-color: #0e8dee;
+        }
+        .button-33 {
+            background-color: #0e8dee;
+        }
+        .button-34 {
+            background-color: #0e8dee;
+        }
+        .button-35 {
+            background-color: #0e8dee;
+        }
+
+        @media (min-width: 150px) and (max-width: 480px) {
+            body {
+                background-image: url(./img/photo_2024-10-16_22-56-51.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+                font-family: 'Arial', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 120vh;
+                margin: 0;
+            }
+            .container {
+                text-align: center;
+                background-color: #fff5e1;
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+                width: 80%;
+                margin-top: 20%;
+                padding-bottom: 0px;
+                margin-bottom: 10%;
+            }
+            .buttons {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(6, auto);
+                gap: 10px;
+                margin: 10%;
+                width: 80%;
+            }
+            h1 {
+                background-color: #3b6d3b;
+                color: #fff;
+                padding: 8px;
+                margin-top: 20px;
+                border-radius: 10px;
+            }
+            .button {
+                color: #fff;
+                border: none;
+                padding: 5px 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.2s ease;
+                font-size: 20px;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+                width: 80%;
+            }
+        }
+        .button-1 {
+            background-color: #e68a00;
+        }
+        .button-2 {
+            background-color: #e68a00;
+        }
+        .button-3 {
+            background-color: #e68a00;
+        }
+        .button-4 {
+            background-color: #4f44e0ec;
+        }
+        .button-5 {
+            background-color: #4f44e0ec;
+        }
+        .button-6 {
+            background-color: #4f44e0ec;
+        }
+        .button-7 {
+            background-color: #d89274;
+        }
+        .button-8 {
+            background-color: #d89274;
+        }
+        .button-9 {
+            background-color: #d89274;
+        }
+        .button-10 {
+            background-color: #51f006;
+        }
+        .button-11 {
+            background-color: #51f006;
+        }
+        .button-12 {
+            background-color: #51f006;
+        }
+        .button-13 {
+            background-color: #ffa07a;
+        }
+        .button-14 {
+            background-color: #ffa07a;
+        }
+        .button-15 {
+            background-color: #ffa07a;
+        }
+        .button-16 {
+            background-color: #8b4513;
+        }
+        .button-17 {
+            background-color: #8b4513;
+        }
+        .button-18 {
+            background-color: #8b4513;
+        }
+        .button-19 {
+            background-color: #fdcf02;
+        }
+        .button-20 {
+            background-color: #fdcf02;
+        }
+        .button-21 {
+            background-color: #fdcf02;
+        }
+        .button-22 {
+            background-color: #788464;
+        }
+        .button-23 {
+            background-color: #788464;
+        }
+        .button-24 {
+            background-color: #788464;
+        }
+        .button-25 {
+            background-color: #99f800;
+        }
+        .button-26 {
+            background-color: #99f800;
+        }
+        .button-27 {
+            background-color: #99f800;
+        }
+        .button-28 {
+            background-color: #616a39;
+        }
+        .button-29 {
+            background-color: #616a39;
+        }
+        .button-30 {
+            background-color: #616a39;
+        }
+        .button-31 {
+            background-color: #0e8dee;
+        }
+        .button-32 {
+            background-color: #0e8dee;
+        }
+        .button-33 {
+            background-color: #0e8dee;
+        }
+        .button-34 {
+            background-color: #0e8dee;
+        }
+        .button-35 {
+            background-color: #0e8dee;
+        }
+        @media (min-width: 480px) and (max-width: 760px) {
+            body {
+                background-image: url(./img/photo_2024-10-16_22-56-51.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+                font-family: 'Arial', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 120vh;
+                margin: 0;
+            }
+            .container {
+                text-align: center;
+                background-color: #fff5e1;
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+                width: 80%;
+                margin-top: 10%;
+                padding-bottom: 0px;
+                margin-bottom: 10%;
+            }
+            .buttons {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(6, auto);
+                gap: 10px;
+                margin: 10%;
+                width: 80%;
+            }
+            h1 {
+                background-color: #3b6d3b;
+                color: #fff;
+                padding: 8px;
+                margin-top: 20px;
+                border-radius: 10px;
+            }
+            .button {
+
+                color: #fff;
+                border: none;
+                padding: 5px 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.2s ease;
+                font-size: 20px;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+                width: 80%;
+            }
+        }
+        @keyframes bounceEffect {
+            0% {
+                transform: translateY(0);
+            }
+            20% {
+                transform: translateY(-10px);
+            }
+            40% {
+                transform: translateY(0);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+            80% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="svg">
+            <svg onclick="goToPage()" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                width="24px" fill="#000000">
+                <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" />
+            </svg>
+        </div>
+        <img src="./img/R (2).jfif" alt="photo">
+        <h1>الفبا فارسی</h1>
+        <div class="buttons">
+            <div class="button button-1" onclick="playSound(' آآ')"> آ</div>
+            <div class="button button-2" onclick="playSound('  ال ف') "> ا </div>
+            <div class="button button-3" onclick="playSound('به')"> ب </div>
+            <div class="button button-4" onclick="playSound(' په' )"> پ</div>
+            <div class="button button-5" onclick="playSound('ته')"> ت</div>
+            <div class="button button-6" onclick="playSound('ثه')"> ث</div>
+            <div class="button button-7" onclick="playSound('جیم')"> ج</div>
+            <div class="button button-8" onclick="playSound('چه ')"> چ </div>
+            <div class="button button-9" onclick="playSound('حه')"> ح</div>
+            <div class="button button-10" onclick="playSound('خه')"> خ</div>
+            <div class="button button-11" onclick="playSound('دال')"> د</div>
+            <div class="button button-12" onclick="playSound('ذال')">ذ</div>
+            <div class="button button-13" onclick="playSound('ره')"> ر</div>
+            <div class="button button-14" onclick="playSound('زه')">ز</div>
+            <div class="button button-15" onclick="playSound('ژه')"> ژ</div>
+            <div class="button button-16" onclick="playSound('سین')"> س</div>
+            <div class="button button-17" onclick="playSound('شین')">ش </div>
+            <div class="button button-18" onclick="playSound('صاد')">ص</div>
+            <div class="button button-19" onclick="playSound('داد')">ض </div>
+            <div class="button button-20" onclick="playSound('طا')">ط </div>
+            <div class="button button-21" onclick="playSound('ظا')">ظ</div>
+            <div class="button button-22" onclick="playSound('عین')">ع</div>
+            <div class="button button-23" onclick="playSound('غین')">غ</div>
+            <div class="button button-24" onclick="playSound('فه')">ف</div>
+            <div class="button button-25" onclick="playSound('قاف')">ق</div>
+            <div class="button button-26" onclick="playSound('کاف')">ک</div>
+            <div class="button button-27" onclick="playSound('گاف')">گ</div>
+            <div class="button button-28" onclick="playSound('لام')">ل</div>
+            <div class="button button-29" onclick="playSound('میم')">م</div>
+            <div class="button button-30" onclick="playSound('نون')">ن</div>
+            <div class="button button-31" onclick="playSound('واو')">و</div>
+            <div class="button button-32" onclick="playSound('ها')">ه</div>
+            <div class="button button-33" onclick="playSound('عمزه')">ء</div>
+            <div class="button button-34" onclick="playSound('یا')">ی</div>
+            <div class="button button-35"></div>
+            <audio src=""></audio>
+        </div>
+    </div>
+
+    <script>
+        function goToPage() {
+            window.location.href = "Page1.html";
+        }
+        var currentSpeech = null; 
+        function playSound(text) {
+            if (currentSpeech && currentSpeech.speaking) {
+                window.speechSynthesis.cancel();
+            }
+            currentSpeech = new SpeechSynthesisUtterance(text);
+            currentSpeech.lang = "fa-IR"; 
+            window.speechSynthesis.speak(currentSpeech); 
+        }
+    </script>
+</body>
+</html>
