@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #303439, #3b6d3b);
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            animation-delay: 0.5s;
+            
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            animation: fadeInUp 2s ease forwards;
+
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff5e1;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            
+
+
+
+        }
+
+        h2 {
+            background-color: #3b6d3b;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            animation: fadeInUp 2s ease forwards;
+        }
+
+        p {
+            font-size: 20px;
+            animation: fadeInUp 2s ease forwards;
+
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: repeat(6, auto);
+            gap: 10px;
+            animation: fadeInUp 2s ease forwards;
+        }
+
+        .button {
+            background-color: #b08060;
+            color: #fff;
+            border: none;
+            padding: 10px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            font-size: 20px;
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 150px;
+
+        }
+
+        .button:hover {
+            background-color: #a07050;
+            transform: translateY(-3px);
+        }
+
+        .button:active {
+            transform: translateY(1px);
+        }
+
+
+        @media (min-width: 150px) and (max-width: 480px) {
+            body {
+                background: linear-gradient(135deg, #303439, #3b6d3b);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+                font-family: 'Arial', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 120vh;
+                margin: 0;
+            }
+
+
+            .container {
+                text-align: center;
+                background-color: #fff5e1;
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+                width: 80%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+
+
+
+            }
+
+            .buttons {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(6, auto);
+                gap: 5px;
+                margin: 10%;
+            }
+
+            .button {
+                background-color: #b08060;
+                color: #fff;
+                border: none;
+                padding: 10px 10px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.2s ease;
+                font-size: 20px;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+                width: 80%;
+            }
+        }
+
+        @media (min-width: 480px) and (max-width: 760px) {
+
+            body {
+                background: linear-gradient(135deg, #303439, #3b6d3b);
+                font-family: 'Arial', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 120vh;
+
+
+            }
+
+            .container {
+                text-align: center;
+                background-color: #fff5e1;
+                padding: 10px;
+                border-radius: 15px;
+                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+                width: 70%;
+
+            }
+
+            .buttons {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(6, auto);
+                gap: 10px;
+
+            }
+
+            .button {
+                background-color: #b08060;
+                color: #fff;
+                border: none;
+                padding: 10px 10px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.2s ease;
+                font-size: 20px;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+                width: 70%;
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div>
+            <img src="./img/cartoon-characters-girl-photo-png-4.png" alt="photp">
+        </div>
+
+        <h2> سلام بچه ها خوش آمدید </h1>
+            <p>چه چیز را میخواهید؟</p>
+
+            <div class="buttons">
+
+                <a href="Page5Numbere.html"><button class="button">اعداد</button> </a>
+                <a href="Pade2Color.html"> <button class="button">رنگها</button></a>
+                <a href="Page3AL-Ehglish.html"><button class="button">الفبا انگلیسی</button></a>
+                <a href="page4AL-Persion.html"><button class="button">الفبا فارسی</button></a>
+                <a href="GAME/index.html"> <button class="button">بازی</button> </a>
+                <a href="Page6Story.html"><button class="button">داستان ها</button></a>
+                <a href="page7Setting.html"><button class="button">تنظیمات</button></a>
+                
+            </div>
+</body>
+
+</html>
