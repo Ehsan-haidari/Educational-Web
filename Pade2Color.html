@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=cottage" />
+    <style>
+        body {
+            background-image: url(img/color.jfif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            margin: 0;
+            margin-left: 10%;
+
+        }
+
+        .container {
+            background: #fff5e1;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            width: 70%;
+            margin-top: 20px;
+
+
+        }
+
+        #svg {
+            position: absolute;
+            animation: fadeInCenter 5s ease forwards;
+        }
+
+        img {
+            width: 25%;
+            height: 150px;
+            margin-top: 20px;
+            border-radius: 5px;
+            animation: fadeInCenter 5s ease forwards;
+        }
+
+        h2 {
+            background-color: #3b6d3b;
+            color: #fff;
+            padding: 8px;
+            margin-top: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            animation: fadeInCenter 5s ease forwards;
+        }
+
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(5, auto);
+            gap: 10px;
+            animation: fadeInCenter 5s ease forwards;
+
+
+        }
+
+        .button {
+            padding: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            color: #fff;
+            animation: fadeInCenter 5s ease forwards;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-1 {
+            background-color: #A52A2A;
+        }
+
+        .button-2 {
+            background-color: #CD853F;
+        }
+
+        .button-3 {
+            background-color: #228B22;
+        }
+
+        .button-4 {
+            background-color: #D2691E;
+        }
+
+        .button-5 {
+            background-color: #FFDAB9;
+        }
+
+        .button-6 {
+            background-color: #8A9A5B;
+        }
+
+        .button-7 {
+            background-color: #FFA500;
+        }
+
+        .button-8 {
+            background-color: #4682B4;
+        }
+
+        .button-9 {
+            background-color: #FFA07A;
+        }
+
+        .button-10 {
+            background-color: #5D8AA8;
+        }
+
+        .button-11 {
+            background-color: #6B8E23;
+        }
+
+        .button-12 {
+            background-color: #C0C0C0;
+        }
+
+        .button-13 {
+            background-color: #FF6347;
+        }
+
+        .button-14 {
+            background-color: #6495ED;
+        }
+
+        .button-15 {
+            background-color: #DB7093;
+        }
+
+        .button-16 {
+            background-color: #8B4513;
+        }
+
+        .button-17 {
+            background-color: #20B2AA;
+        }
+
+        .button-18 {
+            background-color: #8A2BE2;
+        }
+
+        .button-19 {
+            background-color: #FF4500;
+        }
+
+        .button-20 {
+            background-color: #6495ED;
+        }
+
+        @media (min-width: 150px) and (max-width: 480px) {
+            body {
+                background-image: url(img/color.jfif);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+                font-family: 'Arial', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 120vh;
+                margin: 0;
+            }
+
+
+
+            .container {
+                text-align: center;
+                background-color: #fff5e1;
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+                width: 80%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+
+
+            }
+
+            .buttons {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(6, auto);
+                gap: 20px;
+                margin: 10%;
+                width: 80%;
+
+            }
+
+            .button {
+
+                color: #fff;
+                border: none;
+                padding: 10px 10px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.2s ease;
+                font-size: 10px;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+                width: 80%;
+            }
+        }
+
+        .button-1 {
+            background-color: #A52A2A;
+        }
+
+        .button-2 {
+            background-color: #CD853F;
+        }
+
+        .button-3 {
+            background-color: #228B22;
+        }
+
+        .button-4 {
+            background-color: #D2691E;
+        }
+
+        .button-5 {
+            background-color: #FFDAB9;
+        }
+
+        .button-6 {
+            background-color: #8A9A5B;
+        }
+
+        .button-7 {
+            background-color: #FFA500;
+        }
+
+        .button-8 {
+            background-color: #4682B4;
+        }
+
+        .button-9 {
+            background-color: #FFA07A;
+        }
+
+        .button-10 {
+            background-color: #5D8AA8;
+        }
+
+        .button-11 {
+            background-color: #6B8E23;
+        }
+
+        .button-12 {
+            background-color: #C0C0C0;
+        }
+
+        .button-13 {
+            background-color: #FF6347;
+        }
+
+        .button-14 {
+            background-color: #6495ED;
+        }
+
+        .button-15 {
+            background-color: #DB7093;
+        }
+
+        .button-16 {
+            background-color: #8B4513;
+        }
+
+        .button-17 {
+            background-color: #20B2AA;
+        }
+
+        .button-18 {
+            background-color: #8A2BE2;
+        }
+
+        .button-19 {
+            background-color: #FF4500;
+        }
+
+        .button-20 {
+            background-color: #6495ED;
+        }
+
+
+        @media (min-width: 480px) and (max-width: 800px) {
+
+            body {
+                background-image: url(img/color.jfif);
+                font-family: 'Arial', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+            }
+
+            .container {
+                text-align: center;
+                background-color: #fff5e1;
+                padding: 10px;
+                border-radius: 15px;
+                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+                width: 70%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+            }
+
+            .buttons {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(6, auto);
+                gap: 10px;
+
+            }
+
+            .button {
+
+                color: #fff;
+                border: none;
+                padding: 10px 10px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.2s ease;
+                font-size: 15px;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+                width: 70%;
+            }
+        }
+
+        .button-1 {
+            background-color: #A52A2A;
+        }
+
+        .button-2 {
+            background-color: #CD853F;
+        }
+
+        .button-3 {
+            background-color: #228B22;
+        }
+
+        .button-4 {
+            background-color: #D2691E;
+        }
+
+        .button-5 {
+            background-color: #FFDAB9;
+        }
+
+        .button-6 {
+            background-color: #8A9A5B;
+        }
+
+        .button-7 {
+            background-color: #FFA500;
+        }
+
+        .button-8 {
+            background-color: #4682B4;
+        }
+
+        .button-9 {
+            background-color: #FFA07A;
+        }
+
+        .button-10 {
+            background-color: #5D8AA8;
+        }
+
+        .button-11 {
+            background-color: #6B8E23;
+        }
+
+        .button-12 {
+            background-color: #C0C0C0;
+        }
+
+        .button-13 {
+            background-color: #FF6347;
+        }
+
+        .button-14 {
+            background-color: #6495ED;
+        }
+
+        .button-15 {
+            background-color: #DB7093;
+        }
+
+        .button-16 {
+            background-color: #8B4513;
+        }
+
+        .button-17 {
+            background-color: #20B2AA;
+        }
+
+        .button-18 {
+            background-color: #8A2BE2;
+        }
+
+        .button-19 {
+            background-color: #FF4500;
+        }
+
+        .button-20 {
+            background-color: #6495ED;
+        }
+
+
+        @keyframes fadeInCenter {
+            0% {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="svg">
+            <svg onclick="goToPage()" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                width="24px" fill="#000000">
+                <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" />
+            </svg>
+        </div>
+        <img src="./img/pencolor.jfif" alt="photo">
+        <h2>نام های رنگها </h2>
+        <div class="buttons">
+            <div class="button button-1" onclick="speakColor('قهوای روشن')">قهوه‌ای روشن</div>
+            <div class="button button-2" onclick="speakColor('قهوه‌ای متوسط')">قهوه‌ای متوسط</div>
+            <div class="button button-3" onclick="speakColor(' سبز جنگلی')"> سبز جنگلی</div>
+            <div class="button button-4" onclick="speakColor('قهوه‌ای بلوطی')">قهوه‌ای بلوطی </div>
+            <div class="button button-5" onclick="speakColor('هلوئی')">هلوئی</div>
+            <div class="button button-6" onclick="speakColor('سبز خزه‌یی')">سبز خزه‌ای</div>
+            <div class="button button-7" onclick="speakColor('نارنجی')">نارنجی</div>
+            <div class="button button-8" onclick="speakColor('آبی فولادی')">آبی فولادی</div>
+            <div class="button button-9" onclick="speakColor(' سالمون روشن')"> سالمون روشن</div>
+            <div class="button button-10" onclick="speakColor('آبی نیروی هوایی')">آبی نیروی هوایی</div>
+            <div class="button button-11" onclick="speakColor('سبز زیتونی تیره')">سبز زیتونی تیره</div>
+            <div class="button button-12" onclick="speakColor('نقرایی')">نقره‌ای</div>
+            <div class="button button-13" onclick="speakColor('گوجه‌ای')">گوجه‌ای</div>
+            <div class="button button-14" onclick="speakColor('آبی گل گندم')">آبی گل گندم</div>
+            <div class="button button-15" onclick="speakColor('قرمز بنفش کم‌رنگ')">قرمز بنفش کم‌رنگ</div>
+            <div class="button button-16" onclick="speakColor('قهوه‌ای زینی')">قهوه‌ای زینی</div>
+            <div class="button button-17" onclick="speakColor('سبز دریاچه‌ای روشن')">سبز دریاچه‌ای روشن</div>
+            <div class="button button-18" onclick="speakColor('آبی بنفش')">آبی بنفش</div>
+            <div class="button button-19" onclick="speakColor('قرمز نارنجی')">قرمز نارنجی</div>
+            <div class="button button-20" onclick="speakColor('فیروزه ای')">فیروزه ای</div>
+        </div>
+    </div>
+    <button onclick="goToPage()">Go to new page</button>
+
+    <script>
+        function goToPage() {
+            window.location.href = "Page1.html";
+        }
+
+
+        function speakColor(colorName) {
+            const speech = new SpeechSynthesisUtterance(colorName);
+            speech.lang = "fa-IR";
+            window.speechSynthesis.speak(speech);
+        }
+    </script>
+
+</body>
+
+</html>
